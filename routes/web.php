@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/tambah-blog', function () {
+    return view('Blog.tambahblog');
+});
+Route::get('/data-blog', function () {
+    return view('Blog.datablog');
+});
