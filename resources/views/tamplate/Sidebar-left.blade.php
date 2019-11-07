@@ -4,7 +4,7 @@
     <a href="index3.html" class="brand-link">
       <img src="{{asset('img/logo-umb.PNG')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <span class="brand-text font-weight-light">INFORMATIKA</span>
     </a>
 
     <!-- Sidebar -->
@@ -15,7 +15,7 @@
           <img src="{{asset('img/user.JPG')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">SITI NORJENNAH</a>
         </div>
       </div>
 
@@ -25,13 +25,6 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Starter Pages
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="#" class="nav-link active">
@@ -40,10 +33,6 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="fas fa-times nav-icon"></i>
-                  <p>Inactive Page</p>
-                </a>
                 <li class="nav-item">
                 <a href="{{url('/tambah-blog')}}" class="nav-link">
                   <i class="fas fa-bars nav-icon"></i>
