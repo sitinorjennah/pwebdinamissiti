@@ -84,9 +84,4 @@ class BlogController extends Controller
         //
     }
 
-    public function tambahblog($id) 
-    {
-        
-        return view('Blog.tambahblog');
-    }
 }
