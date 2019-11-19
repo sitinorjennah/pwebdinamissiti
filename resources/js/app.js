@@ -12,7 +12,10 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter)
 
 let routes = [
-    {path: '/tambah-data-blog', component: require ('./components/Blog/Add-blog.vue').default}
+    {path: '/tambah-data-blog', component: require ('./components/Blog/Add-blog.vue').default},
+    {path: '/pengguna-blog', component: require ('./components/Blog/Pengguna.vue').default},
+    {path: '/kategori-blog', component: require ('./components/Blog/Kategori.vue').default},
+    {path: '/data-blog', component: require ('./components/Blog/Data-blog.vue').default}
 ]
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);

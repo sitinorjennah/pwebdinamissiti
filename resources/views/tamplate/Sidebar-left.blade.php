@@ -33,22 +33,30 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <li class="nav-item">
+                <router-link to="pengguna-blog" class="nav-link">
+                <i class="fas fa-user nav-icon blue"></i>
+                  <p>Pengguna</p>
+                </router-link>
+              </li>
               <li class="nav-item">
-                <a href="#" class="nav-link active">
-                  <i class="fas fa-rss nav-icon"></i>
-                  <p>Active Page</p>
-                </a>
+                <li class="nav-item">
+                <router-link to="kategori-blog" class="nav-link">
+                  <i class="fas fa-bars nav-icon grean"></i>
+                  <p>Kategori</p>
+                </router-link>
               </li>
               <li class="nav-item">
                 <li class="nav-item">
                 <router-link to="tambah-data-blog" class="nav-link">
-                  <i class="fas fa-bars nav-icon"></i>
+                <i class="fas fa-plus-square nav-icon indigo"></i>
                   <p>Add Blog</p>
                 </router-link>
               </li>
               <li class="nav-item">
-                <a href="{{url('/data-blog')}}" class="nav-link">
-                  <i class="fas fa-database nav-icon"></i>
+              <router-link to="data-blog" class="nav-link">
+                  <i class="fas fa-database nav-icon cyan"></i>
                   <p>Data Blog</p>
                 </a>
               </li>
